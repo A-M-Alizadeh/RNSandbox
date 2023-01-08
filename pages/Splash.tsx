@@ -10,8 +10,8 @@ const Splash = (props: Props) => {
 
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Home');
-    }, 2000);
+      navigation.replace('Home');
+    }, 100);
   }, []);
 
   return (
