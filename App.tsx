@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import {BaseNavigation} from './navigation';
+import { BaseNavigation } from './navigation';
 
 const App = () => {
   return <BaseNavigation />;
